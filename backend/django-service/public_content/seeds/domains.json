@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Web Development",
+    "slug": "web-development",
+    "description": "Frontend, backend, databases, authentication, APIs, deployment, and full stack product development.",
+    "icon": "code-2",
+    "color": "#FF7A0E",
+    "is_featured": true,
+    "display_order": 1,
+    "payload": {
+      "source_documents": ["Vaarada Complete Curriculum", "Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["Web Development", "Full Stack Development + AI", "Full Stack Advanced"]
+    }
+  },
+  {
+    "title": "Data Analytics",
+    "slug": "data-analytics",
+    "description": "Excel, SQL, Power BI, Python analysis, business dashboards, reporting, and analytics storytelling.",
+    "icon": "bar-chart-3",
+    "color": "#38A3A5",
+    "is_featured": true,
+    "display_order": 2,
+    "payload": {
+      "source_documents": ["Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["Data Analytics", "Power BI", "SQL", "Pandas", "AI-assisted narrative reports"]
+    }
+  },
+  {
+    "title": "Data Science and ML",
+    "slug": "data-science-ml",
+    "description": "Machine learning, NLP, deep learning, model deployment, experiments, and AI-assisted ML systems.",
+    "icon": "brain-circuit",
+    "color": "#22577A",
+    "is_featured": true,
+    "display_order": 3,
+    "payload": {
+      "source_documents": ["Vaarada Complete Curriculum", "Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["Data Science / ML", "Scikit-learn", "TensorFlow/Keras", "NLP", "ML model APIs"]
+    }
+  },
+  {
+    "title": "Data Engineering",
+    "slug": "data-engineering",
+    "description": "ETL, PySpark, Airflow, data warehouses, dbt, cloud data platforms, and production data pipelines.",
+    "icon": "database-zap",
+    "color": "#57CC99",
+    "is_featured": true,
+    "display_order": 4,
+    "payload": {
+      "source_documents": ["Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["Data Engineering", "PySpark", "Airflow", "dbt", "Snowflake", "BigQuery"]
+    }
+  },
+  {
+    "title": "Cyber Security",
+    "slug": "cyber-security",
+    "description": "Networking, OWASP, ethical hacking, vulnerability scanning, SOC workflows, and AI-assisted security analysis.",
+    "icon": "shield-check",
+    "color": "#E86C0D",
+    "is_featured": true,
+    "display_order": 5,
+    "payload": {
+      "source_documents": ["Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["Cyber Security + AI", "OWASP Top 10", "Kali Linux", "Nmap", "Burp Suite", "AI IDS"]
+    }
+  },
+  {
+    "title": "Cloud and DevOps",
+    "slug": "cloud-devops",
+    "description": "Docker, CI/CD, AWS, Kubernetes, Terraform, observability, reliability, and production operations.",
+    "icon": "cloud-cog",
+    "color": "#0F172A",
+    "is_featured": true,
+    "display_order": 6,
+    "payload": {
+      "source_documents": ["Vaarada Complete Curriculum", "Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["DevOps + Cloud", "Cloud & DevOps + AI", "AWS", "Docker", "Kubernetes", "Terraform"]
+    }
+  },
+  {
+    "title": "AI Integration and Agents",
+    "slug": "ai-integration-agents",
+    "description": "LLMs, prompt engineering, RAG, embeddings, multimodal AI, AI agents, MCP, and AI-powered product features.",
+    "icon": "sparkles",
+    "color": "#FEBC38",
+    "is_featured": true,
+    "display_order": 7,
+    "payload": {
+      "source_documents": ["Vaarada Complete Curriculum", "Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["AI Integration", "AI Agents + MCP + AI-Augmented Development", "RAG", "LangChain", "LangGraph"]
+    }
+  },
+  {
+    "title": "Software Engineering Foundations",
+    "slug": "software-engineering-foundations",
+    "description": "Python, DSA, CS fundamentals, system design, clean code, Git, testing, and placement readiness.",
+    "icon": "layers-3",
+    "color": "#8C94A3",
+    "is_featured": false,
+    "display_order": 8,
+    "payload": {
+      "source_documents": ["Vaarada Complete Curriculum", "Vaarada Graduate Curriculum"],
+      "curriculum_basis": ["Programming + Basics", "DSA Foundation", "Advanced DSA + Core Subjects", "System Design"]
+    }
+  }
+]

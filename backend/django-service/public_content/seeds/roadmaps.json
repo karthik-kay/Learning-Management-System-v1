@@ -1,0 +1,675 @@
+[
+  {
+    "title": "Web Development Roadmap",
+    "slug": "web-development-roadmap",
+    "subtitle": "Master modern web development from foundations to deployable full stack products.",
+    "description": "A domain roadmap covering frontend, backend, databases, authentication, testing, deployment, and AI-integrated product features.",
+    "domain": "web-development",
+    "roadmap_type": "domain",
+    "level": "beginner",
+    "estimated_duration_weeks": 24,
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "Authentication", "Deployment"],
+    "tools": ["VS Code", "GitHub", "Postman", "Docker", "Vercel", "Render", "AWS EC2"],
+    "outcomes": ["Build responsive frontends", "Create REST APIs", "Ship deployed full stack apps", "Add AI features into web products"],
+    "is_featured": true,
+    "display_order": 1,
+    "payload": {
+      "salaryRange": "6L - 18L",
+      "source_phase": "Phase 04 Web Development + Graduate Track 01 Full Stack Development + AI",
+      "faqs": [
+        {"question": "Is this only for full stack learners?", "answer": "No. It also supports frontend, backend, QA, and product-oriented web roles."},
+        {"question": "Does it include AI?", "answer": "Yes. AI chatbot, document Q&A, embeddings search, and resume analyser style features can be integrated into projects."}
+      ]
+    },
+    "tracks": [
+      {
+        "title": "Frontend Track",
+        "slug": "frontend",
+        "description": "Interface fundamentals, responsive UI, JavaScript, React, routing, and state management.",
+        "focus_area": "Frontend",
+        "skills": ["HTML", "CSS", "JavaScript", "React", "Hooks", "Routing"],
+        "tools": ["VS Code", "React DevTools", "Vercel"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "HTML, CSS and Responsive Layouts",
+            "description": "Build accessible pages using semantic HTML, CSS, Flexbox, Grid, Bootstrap, and responsive design patterns.",
+            "stage_type": "foundation",
+            "duration_label": "3-4 weeks",
+            "concepts": ["Semantic HTML", "CSS cascade", "Flexbox", "Grid", "Accessibility"],
+            "skills": ["HTML", "CSS", "Responsive Design"],
+            "tools": ["Chrome DevTools", "Bootstrap"],
+            "projects": [{"title": "Responsive portfolio landing page"}],
+            "resources": [{"label": "Phase 04 Web Development"}],
+            "display_order": 1
+          },
+          {
+            "title": "Modern JavaScript",
+            "description": "Learn ES6+, DOM manipulation, async/await, Fetch API, promises, and browser problem solving.",
+            "stage_type": "core",
+            "duration_label": "3-4 weeks",
+            "concepts": ["DOM", "Promises", "Fetch API", "Async/Await"],
+            "skills": ["JavaScript", "DOM", "API Integration"],
+            "tools": ["Browser DevTools"],
+            "projects": [{"title": "API-powered dashboard"}],
+            "resources": [{"label": "Phase 04 JavaScript outcomes"}],
+            "display_order": 2
+          },
+          {
+            "title": "React Application Development",
+            "description": "Build React applications using hooks, component patterns, context, reducers, forms, and React Router.",
+            "stage_type": "specialization",
+            "duration_label": "4-5 weeks",
+            "concepts": ["Components", "Hooks", "Context", "Routing", "Forms"],
+            "skills": ["React", "React Router", "State Management"],
+            "tools": ["React DevTools", "Vite", "Vercel"],
+            "projects": [{"title": "Student dashboard or course catalog app"}],
+            "resources": [{"label": "Track 01 Full Stack Development + AI"}],
+            "display_order": 3
+          }
+        ]
+      },
+      {
+        "title": "Backend and Database Track",
+        "slug": "backend-database",
+        "description": "REST APIs, authentication, MongoDB, backend validation, and production-ready API design.",
+        "focus_area": "Backend",
+        "skills": ["Node.js", "Express", "MongoDB", "JWT", "REST APIs"],
+        "tools": ["Postman", "MongoDB Atlas", "Render"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "REST APIs with Node and Express",
+            "description": "Design API routes, controllers, services, validation, and error handling using Node.js and Express.",
+            "stage_type": "core",
+            "duration_label": "3-4 weeks",
+            "concepts": ["REST", "HTTP", "Controllers", "Middleware"],
+            "skills": ["Node.js", "Express", "REST API"],
+            "tools": ["Postman"],
+            "projects": [{"title": "CRUD API with validation"}],
+            "resources": [{"label": "Phase 04 Backend outcomes"}],
+            "display_order": 1
+          },
+          {
+            "title": "Databases and Authentication",
+            "description": "Use MongoDB/Mongoose, model relationships, implement JWT authentication, and protect user flows.",
+            "stage_type": "core",
+            "duration_label": "3-4 weeks",
+            "concepts": ["MongoDB schema design", "JWT", "Auth middleware"],
+            "skills": ["MongoDB", "Mongoose", "Authentication"],
+            "tools": ["MongoDB Atlas", "Postman"],
+            "projects": [{"title": "Authenticated full stack app"}],
+            "resources": [{"label": "Graduate Track 01 outcomes"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "Deployment and AI Product Track",
+        "slug": "deployment-ai-product",
+        "description": "Deploy web apps, containerize services, add AI features, and produce portfolio-ready demos.",
+        "focus_area": "Deployment and AI",
+        "skills": ["Docker", "CI/CD", "OpenAI API", "RAG", "Embeddings"],
+        "tools": ["Docker", "GitHub Actions", "Vercel", "Render", "AWS EC2"],
+        "display_order": 3,
+        "steps": [
+          {
+            "title": "Deploy Full Stack Applications",
+            "description": "Deploy frontend, backend, database, environment variables, and production URLs with clean documentation.",
+            "stage_type": "production",
+            "duration_label": "2-3 weeks",
+            "concepts": ["Environment variables", "Hosting", "CI/CD basics"],
+            "skills": ["Deployment", "Docker", "GitHub Actions"],
+            "tools": ["Vercel", "Render", "AWS EC2"],
+            "projects": [{"title": "Deployed full stack SaaS capstone"}],
+            "resources": [{"label": "Phase 07 DevOps + Cloud"}],
+            "display_order": 1
+          },
+          {
+            "title": "AI-Integrated Web Features",
+            "description": "Add chatbot history, document Q&A, embeddings search, or AI resume analyser features into a web application.",
+            "stage_type": "ai-integration",
+            "duration_label": "3-4 weeks",
+            "concepts": ["LLM APIs", "RAG", "Embeddings", "Streaming"],
+            "skills": ["OpenAI API", "Prompt Engineering", "RAG"],
+            "tools": ["OpenAI", "LangChain", "Chroma"],
+            "projects": [{"title": "AI chatbot or resume analyser"}],
+            "resources": [{"label": "AI Integration phase"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Analytics Roadmap",
+    "slug": "data-analytics-roadmap",
+    "subtitle": "Turn raw business data into dashboards, insights, and decision-ready reports.",
+    "description": "A practical analytics roadmap covering Excel, SQL, Power BI, Python EDA, statistics, and AI-assisted reporting.",
+    "domain": "data-analytics",
+    "roadmap_type": "domain",
+    "level": "beginner",
+    "estimated_duration_weeks": 16,
+    "skills": ["Excel", "SQL", "Power BI", "Python", "Pandas", "EDA", "Statistics", "Storytelling"],
+    "tools": ["Excel", "Power Query", "Power BI", "Jupyter", "Streamlit"],
+    "outcomes": ["Build dashboards", "Write SQL analysis", "Perform EDA", "Generate AI-assisted business reports"],
+    "is_featured": true,
+    "display_order": 2,
+    "payload": {
+      "salaryRange": "5L - 14L",
+      "source_phase": "Graduate Track 02 Data Analytics"
+    },
+    "tracks": [
+      {
+        "title": "Business Analytics Foundations",
+        "slug": "business-analytics-foundations",
+        "description": "Excel, SQL, data cleaning, and business metric fundamentals.",
+        "focus_area": "Analytics Foundations",
+        "skills": ["Excel", "SQL", "Data Cleaning"],
+        "tools": ["Excel", "Power Query"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "Excel and Power Query",
+            "description": "Use pivot tables, Power Query, INDEX-MATCH, and spreadsheet models for business analysis.",
+            "stage_type": "foundation",
+            "duration_label": "3 weeks",
+            "concepts": ["Pivot tables", "Power Query", "Business metrics"],
+            "skills": ["Excel", "Power Query"],
+            "tools": ["Excel"],
+            "projects": [{"title": "Sales performance workbook"}],
+            "resources": [{"label": "Track 02 Data Analytics"}],
+            "display_order": 1
+          },
+          {
+            "title": "Advanced SQL for Analysis",
+            "description": "Use joins, CTEs, window functions, aggregations, and business queries for analytics work.",
+            "stage_type": "core",
+            "duration_label": "3 weeks",
+            "concepts": ["Joins", "CTEs", "Window functions", "Aggregations"],
+            "skills": ["SQL", "Business Analysis"],
+            "tools": ["PostgreSQL", "BigQuery"],
+            "projects": [{"title": "Customer cohort SQL analysis"}],
+            "resources": [{"label": "Phase 02 Core Fundamentals"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "Dashboards and Python Analytics",
+        "slug": "dashboards-python-analytics",
+        "description": "Power BI, DAX, Pandas, EDA, statistics, and analytics storytelling.",
+        "focus_area": "Dashboards",
+        "skills": ["Power BI", "DAX", "Pandas", "EDA"],
+        "tools": ["Power BI", "Jupyter", "Streamlit"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "Power BI Dashboards",
+            "description": "Build star-schema models, DAX measures, drill-through views, and stakeholder-ready dashboards.",
+            "stage_type": "specialization",
+            "duration_label": "3 weeks",
+            "concepts": ["Star schema", "DAX", "Dashboard UX"],
+            "skills": ["Power BI", "DAX", "Data Modeling"],
+            "tools": ["Power BI"],
+            "projects": [{"title": "Executive analytics dashboard"}],
+            "resources": [{"label": "Graduate Data Analytics outcomes"}],
+            "display_order": 1
+          },
+          {
+            "title": "Python EDA and AI Reports",
+            "description": "Use Pandas and visualizations for EDA, then generate AI-assisted narrative reports and Streamlit apps.",
+            "stage_type": "project",
+            "duration_label": "3 weeks",
+            "concepts": ["EDA", "Cohort analysis", "RFM", "Narrative reporting"],
+            "skills": ["Pandas", "Matplotlib", "Streamlit", "LLM Reporting"],
+            "tools": ["Jupyter", "Streamlit", "OpenAI"],
+            "projects": [{"title": "AI sales trend report"}],
+            "resources": [{"label": "Track 02 CO3T2.4 and CO3T2.5"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science and ML Roadmap",
+    "slug": "data-science-ml-roadmap",
+    "subtitle": "Build ML pipelines, NLP systems, deep learning projects, and deployable model APIs.",
+    "description": "A roadmap for applied data science, ML, NLP, deep learning, RAG, model APIs, experiment tracking, and portfolio capstones.",
+    "domain": "data-science-ml",
+    "roadmap_type": "domain",
+    "level": "intermediate",
+    "estimated_duration_weeks": 20,
+    "skills": ["Python", "Pandas", "Scikit-learn", "NLP", "TensorFlow", "Keras", "RAG", "FastAPI", "MLflow"],
+    "tools": ["Jupyter", "Scikit-learn", "TensorFlow", "Hugging Face", "FastAPI", "Docker", "MLflow"],
+    "outcomes": ["Train ML models", "Build NLP systems", "Deploy model APIs", "Create AI/ML capstone projects"],
+    "is_featured": true,
+    "display_order": 3,
+    "payload": {"salaryRange": "8L - 28L", "source_phase": "Specialization Track B and Graduate Track 03"},
+    "tracks": [
+      {
+        "title": "ML Foundations",
+        "slug": "ml-foundations",
+        "description": "Data analysis, preprocessing, model training, tuning, and evaluation.",
+        "focus_area": "Machine Learning",
+        "skills": ["Pandas", "Scikit-learn", "Model Evaluation"],
+        "tools": ["Jupyter", "Scikit-learn"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "EDA and Feature Engineering",
+            "description": "Clean, explore, visualize, and prepare datasets using Pandas and visualization libraries.",
+            "stage_type": "foundation",
+            "duration_label": "3 weeks",
+            "concepts": ["EDA", "Preprocessing", "Feature engineering"],
+            "skills": ["Pandas", "NumPy", "Matplotlib"],
+            "tools": ["Jupyter"],
+            "projects": [{"title": "Exploratory data analysis notebook"}],
+            "resources": [{"label": "CO5B.1 / CO3T3.1"}],
+            "display_order": 1
+          },
+          {
+            "title": "Model Training and Evaluation",
+            "description": "Train classification and regression models, tune hyperparameters, and evaluate with correct metrics.",
+            "stage_type": "core",
+            "duration_label": "4 weeks",
+            "concepts": ["Classification", "Regression", "Metrics", "Tuning"],
+            "skills": ["Scikit-learn", "Model Selection", "Evaluation"],
+            "tools": ["Scikit-learn"],
+            "projects": [{"title": "Disease prediction model"}],
+            "resources": [{"label": "Track 03 ML outcomes"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "NLP, Deep Learning and Deployment",
+        "slug": "nlp-deep-learning-deployment",
+        "description": "NLP, embeddings, neural networks, RAG, model APIs, experiment tracking, and Dockerized deployment.",
+        "focus_area": "Advanced ML",
+        "skills": ["NLP", "Deep Learning", "RAG", "FastAPI", "Docker"],
+        "tools": ["TensorFlow", "Hugging Face", "LangChain", "FastAPI", "MLflow"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "NLP and Deep Learning",
+            "description": "Apply TF-IDF, embeddings, SpaCy, CNNs, LSTMs, and Keras for text and deep learning projects.",
+            "stage_type": "specialization",
+            "duration_label": "4 weeks",
+            "concepts": ["TF-IDF", "Embeddings", "CNN", "LSTM"],
+            "skills": ["NLP", "TensorFlow", "Keras"],
+            "tools": ["SpaCy", "TensorFlow", "Hugging Face"],
+            "projects": [{"title": "Sentiment analysis app"}],
+            "resources": [{"label": "CO3T3.2"}],
+            "display_order": 1
+          },
+          {
+            "title": "ML APIs and AI Capstone",
+            "description": "Deploy ML models through FastAPI/Flask, track experiments, containerize services, and build a complete ML capstone.",
+            "stage_type": "production",
+            "duration_label": "4 weeks",
+            "concepts": ["FastAPI", "Experiment tracking", "Docker", "Model serving"],
+            "skills": ["FastAPI", "Flask", "Docker", "MLflow"],
+            "tools": ["FastAPI", "Docker", "MLflow"],
+            "projects": [{"title": "End-to-end ML capstone"}],
+            "resources": [{"label": "CO3T3.4 and CO3T3.5"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Engineering Roadmap",
+    "slug": "data-engineering-roadmap",
+    "subtitle": "Design, build, monitor, and deploy production-grade data pipelines.",
+    "description": "A roadmap for ETL, PySpark, Airflow, dimensional modeling, dbt, cloud data platforms, and AI-monitored pipelines.",
+    "domain": "data-engineering",
+    "roadmap_type": "domain",
+    "level": "intermediate",
+    "estimated_duration_weeks": 18,
+    "skills": ["Python", "SQL", "PySpark", "Airflow", "dbt", "Snowflake", "BigQuery", "AWS Glue"],
+    "tools": ["Airflow", "PySpark", "dbt", "Snowflake", "BigQuery", "AWS Glue"],
+    "outcomes": ["Build ETL pipelines", "Model warehouse data", "Schedule and monitor pipelines", "Deploy cloud data workflows"],
+    "is_featured": true,
+    "display_order": 4,
+    "payload": {"salaryRange": "8L - 24L", "source_phase": "Graduate Track 04 Data Engineering"},
+    "tracks": [
+      {
+        "title": "Pipeline Engineering",
+        "slug": "pipeline-engineering",
+        "description": "Python ETL, PySpark processing, Airflow scheduling, error handling, and monitoring.",
+        "focus_area": "ETL",
+        "skills": ["Python", "PySpark", "Airflow"],
+        "tools": ["Airflow", "PySpark"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "ETL with Python and PySpark",
+            "description": "Extract, transform, validate, and load data using Python and PySpark with production-style error handling.",
+            "stage_type": "core",
+            "duration_label": "4 weeks",
+            "concepts": ["ETL", "Batch processing", "Validation"],
+            "skills": ["Python", "PySpark", "ETL"],
+            "tools": ["PySpark"],
+            "projects": [{"title": "Batch ETL pipeline"}],
+            "resources": [{"label": "CO3T4.1"}],
+            "display_order": 1
+          },
+          {
+            "title": "Airflow Orchestration",
+            "description": "Schedule, monitor, retry, and document pipeline workflows using Airflow DAGs.",
+            "stage_type": "production",
+            "duration_label": "3 weeks",
+            "concepts": ["DAGs", "Scheduling", "Retries", "Monitoring"],
+            "skills": ["Airflow", "Pipeline Monitoring"],
+            "tools": ["Airflow"],
+            "projects": [{"title": "Scheduled ETL DAG"}],
+            "resources": [{"label": "CO3T4.1"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "Warehouse and Cloud Data",
+        "slug": "warehouse-cloud-data",
+        "description": "Dimensional modeling, dbt transformations, cloud data warehouses, and data quality.",
+        "focus_area": "Warehouse",
+        "skills": ["Data Modeling", "dbt", "Snowflake", "BigQuery"],
+        "tools": ["dbt", "Snowflake", "BigQuery", "AWS Glue"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "Dimensional Modeling and dbt",
+            "description": "Design star and snowflake schemas, then build tested SQL transformations with dbt.",
+            "stage_type": "specialization",
+            "duration_label": "4 weeks",
+            "concepts": ["Star schema", "Snowflake schema", "dbt tests"],
+            "skills": ["Dimensional Modeling", "dbt", "SQL"],
+            "tools": ["dbt", "Snowflake"],
+            "projects": [{"title": "Warehouse analytics model"}],
+            "resources": [{"label": "CO3T4.2 and CO3T4.3"}],
+            "display_order": 1
+          },
+          {
+            "title": "Cloud Data Platform Capstone",
+            "description": "Deploy a monitored cloud data warehouse pipeline with CI/CD and AI anomaly detection ideas.",
+            "stage_type": "capstone",
+            "duration_label": "4 weeks",
+            "concepts": ["Cloud data", "CI/CD", "Data quality", "Monitoring"],
+            "skills": ["AWS Glue", "Azure Data Factory", "CI/CD"],
+            "tools": ["AWS Glue", "BigQuery", "GitHub Actions"],
+            "projects": [{"title": "Cloud data warehouse capstone"}],
+            "resources": [{"label": "CO3T4.4 and CO3T4.5"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cyber Security Roadmap",
+    "slug": "cyber-security-roadmap",
+    "subtitle": "Learn networking, ethical hacking, vulnerability analysis, SOC workflows, and AI-assisted security.",
+    "description": "A security roadmap covering networking, OWASP, Kali, Nmap, Burp Suite, Metasploit, ML intrusion detection, and incident reporting.",
+    "domain": "cyber-security",
+    "roadmap_type": "domain",
+    "level": "beginner",
+    "estimated_duration_weeks": 18,
+    "skills": ["Networking", "OWASP", "Linux", "Nmap", "Burp Suite", "Metasploit", "SOC", "Incident Reports"],
+    "tools": ["Kali Linux", "Nmap", "Burp Suite", "Metasploit", "Streamlit"],
+    "outcomes": ["Run controlled security labs", "Build vulnerability scanners", "Analyse logs", "Create VAPT reports"],
+    "is_featured": true,
+    "display_order": 5,
+    "payload": {"salaryRange": "6L - 20L", "source_phase": "Graduate Track 05 Cyber Security + AI"},
+    "tracks": [
+      {
+        "title": "Security Foundations",
+        "slug": "security-foundations",
+        "description": "Networking, HTTP, DNS, firewalls, Linux basics, and OWASP fundamentals.",
+        "focus_area": "Foundations",
+        "skills": ["Networking", "Linux", "OWASP"],
+        "tools": ["Kali Linux"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "Networking and OWASP",
+            "description": "Understand OSI/TCP-IP, DNS, HTTPS, firewalls, and OWASP Top 10 web vulnerabilities.",
+            "stage_type": "foundation",
+            "duration_label": "4 weeks",
+            "concepts": ["OSI", "TCP/IP", "DNS", "OWASP Top 10"],
+            "skills": ["Networking", "Web Security"],
+            "tools": ["Wireshark", "Kali Linux"],
+            "projects": [{"title": "OWASP vulnerability notes lab"}],
+            "resources": [{"label": "CO3T5.1"}],
+            "display_order": 1
+          },
+          {
+            "title": "Ethical Hacking Lab",
+            "description": "Use Nmap, Burp Suite, and Metasploit in controlled environments for scanning and exploit understanding.",
+            "stage_type": "lab",
+            "duration_label": "4 weeks",
+            "concepts": ["Scanning", "Proxying", "Exploitation basics"],
+            "skills": ["Nmap", "Burp Suite", "Metasploit"],
+            "tools": ["Nmap", "Burp Suite", "Metasploit"],
+            "projects": [{"title": "Vulnerability scanner"}],
+            "resources": [{"label": "CO3T5.2"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "AI Security Operations",
+        "slug": "ai-security-operations",
+        "description": "ML intrusion detection, malware classification, log anomaly analysis, and AI-assisted reporting.",
+        "focus_area": "SOC and AI",
+        "skills": ["Log Analysis", "Anomaly Detection", "Incident Reporting"],
+        "tools": ["Streamlit", "Python", "LLMs"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "AI IDS and Incident Reporting",
+            "description": "Apply ML to intrusion detection and use LLMs for incident report generation and log parsing.",
+            "stage_type": "project",
+            "duration_label": "4 weeks",
+            "concepts": ["IDS", "Log anomaly detection", "AI reporting"],
+            "skills": ["Python", "ML", "LLM Reports"],
+            "tools": ["Streamlit", "OpenAI"],
+            "projects": [{"title": "AI IDS dashboard"}],
+            "resources": [{"label": "CO3T5.3 and CO3T5.4"}],
+            "display_order": 1
+          },
+          {
+            "title": "VAPT Report Capstone",
+            "description": "Produce a complete VAPT report on a controlled vulnerable application such as DVWA.",
+            "stage_type": "capstone",
+            "duration_label": "3 weeks",
+            "concepts": ["VAPT", "Risk rating", "Remediation"],
+            "skills": ["Security Reporting", "Vulnerability Analysis"],
+            "tools": ["DVWA", "Burp Suite"],
+            "projects": [{"title": "Full VAPT report"}],
+            "resources": [{"label": "CO3T5.5"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cloud and DevOps Roadmap",
+    "slug": "cloud-devops-roadmap",
+    "subtitle": "Deploy, automate, monitor, secure, and scale production applications.",
+    "description": "A roadmap covering Linux, Docker, CI/CD, AWS, Kubernetes, Terraform, monitoring, SRE, DevSecOps, and deployment runbooks.",
+    "domain": "cloud-devops",
+    "roadmap_type": "domain",
+    "level": "intermediate",
+    "estimated_duration_weeks": 18,
+    "skills": ["Linux", "Docker", "GitHub Actions", "AWS", "Kubernetes", "Terraform", "Prometheus", "Grafana", "SRE"],
+    "tools": ["Docker", "GitHub Actions", "AWS", "EKS", "Terraform", "Prometheus", "Grafana", "CloudWatch"],
+    "outcomes": ["Containerize applications", "Build CI/CD pipelines", "Provision cloud infrastructure", "Monitor production systems"],
+    "is_featured": true,
+    "display_order": 6,
+    "payload": {"salaryRange": "8L - 24L", "source_phase": "Phase 07 DevOps + Cloud and Graduate Track 06"},
+    "tracks": [
+      {
+        "title": "Containers and CI/CD",
+        "slug": "containers-cicd",
+        "description": "Docker, Docker Compose, GitHub Actions, image publishing, and automated deployment.",
+        "focus_area": "CI/CD",
+        "skills": ["Docker", "GitHub Actions", "CI/CD"],
+        "tools": ["Docker", "GitHub Actions", "ECR"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "Docker and Container Workflows",
+            "description": "Containerize apps, compose multi-container setups, and understand production runtime concerns.",
+            "stage_type": "core",
+            "duration_label": "3 weeks",
+            "concepts": ["Dockerfiles", "Images", "Compose", "Runtime"],
+            "skills": ["Docker", "Docker Compose"],
+            "tools": ["Docker"],
+            "projects": [{"title": "Containerized web app"}],
+            "resources": [{"label": "CO7.2 / CO3T6.2"}],
+            "display_order": 1
+          },
+          {
+            "title": "GitHub Actions CI/CD",
+            "description": "Create pipelines for lint, test, build, image push, and deployment to EC2, ECS, or EKS.",
+            "stage_type": "production",
+            "duration_label": "4 weeks",
+            "concepts": ["Workflow triggers", "Secrets", "Build and deploy jobs"],
+            "skills": ["GitHub Actions", "CI/CD", "Automation"],
+            "tools": ["GitHub Actions", "AWS ECR"],
+            "projects": [{"title": "Live CI/CD deployment pipeline"}],
+            "resources": [{"label": "CO7.3 / CO3T6.3"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "Cloud Infrastructure and Reliability",
+        "slug": "cloud-infrastructure-reliability",
+        "description": "AWS services, Kubernetes, Terraform, monitoring, SRE, security, and deployment operations.",
+        "focus_area": "Cloud and SRE",
+        "skills": ["AWS", "Kubernetes", "Terraform", "Monitoring", "SRE"],
+        "tools": ["AWS", "EKS", "Terraform", "Prometheus", "Grafana"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "AWS Infrastructure and Terraform",
+            "description": "Provision EC2, RDS, S3, VPC, security groups, and reusable Terraform infrastructure.",
+            "stage_type": "infrastructure",
+            "duration_label": "4 weeks",
+            "concepts": ["EC2", "RDS", "S3", "VPC", "Terraform state"],
+            "skills": ["AWS", "Terraform", "Infrastructure as Code"],
+            "tools": ["AWS", "Terraform"],
+            "projects": [{"title": "3-tier AWS architecture"}],
+            "resources": [{"label": "CO7.4 / Track 06 IaC"}],
+            "display_order": 1
+          },
+          {
+            "title": "Kubernetes, Monitoring and SRE",
+            "description": "Deploy microservices on Kubernetes, add Prometheus/Grafana monitoring, define SLI/SLOs, and document runbooks.",
+            "stage_type": "capstone",
+            "duration_label": "5 weeks",
+            "concepts": ["Kubernetes", "Observability", "SLOs", "Runbooks"],
+            "skills": ["Kubernetes", "Prometheus", "Grafana", "SRE"],
+            "tools": ["EKS", "Helm", "Prometheus", "Grafana"],
+            "projects": [{"title": "Kubernetes microservices capstone"}],
+            "resources": [{"label": "Track 06 Final Capstone"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI Integration and Agents Roadmap",
+    "slug": "ai-integration-agents-roadmap",
+    "subtitle": "Build AI-powered product features, RAG systems, agents, and MCP-ready workflows.",
+    "description": "A roadmap covering LLM APIs, prompt engineering, RAG, embeddings, multimodal AI, streaming, AI agents, LangGraph, CrewAI, MCP, and AI-augmented development.",
+    "domain": "ai-integration-agents",
+    "roadmap_type": "domain",
+    "level": "intermediate",
+    "estimated_duration_weeks": 12,
+    "skills": ["Prompt Engineering", "OpenAI API", "Gemini API", "RAG", "Embeddings", "LangChain", "LangGraph", "CrewAI", "MCP"],
+    "tools": ["OpenAI", "Gemini", "Claude", "LangChain", "Chroma", "LangGraph", "CrewAI", "Cursor"],
+    "outcomes": ["Build AI features", "Create RAG systems", "Deploy AI agents", "Use AI-assisted development workflows"],
+    "is_featured": true,
+    "display_order": 7,
+    "payload": {"salaryRange": "Role dependent", "source_phase": "Phase 08 AI Integration and Bonus Module AI Agents + MCP"},
+    "tracks": [
+      {
+        "title": "LLM Product Features",
+        "slug": "llm-product-features",
+        "description": "Prompt engineering, LLM APIs, embeddings, RAG, streaming, and AI product integration.",
+        "focus_area": "AI Features",
+        "skills": ["Prompt Engineering", "LLM APIs", "RAG", "Embeddings"],
+        "tools": ["OpenAI", "Gemini", "LangChain", "Chroma"],
+        "display_order": 1,
+        "steps": [
+          {
+            "title": "Prompt Engineering and LLM APIs",
+            "description": "Use OpenAI, Gemini, and Claude APIs with structured prompts, streaming, and safe API handling.",
+            "stage_type": "foundation",
+            "duration_label": "3 weeks",
+            "concepts": ["Zero-shot", "Few-shot", "Role prompting", "Streaming"],
+            "skills": ["Prompt Engineering", "OpenAI API", "Gemini API"],
+            "tools": ["OpenAI", "Gemini", "Claude"],
+            "projects": [{"title": "AI writing assistant or code reviewer"}],
+            "resources": [{"label": "CO8.1 and CO8.2"}],
+            "display_order": 1
+          },
+          {
+            "title": "RAG and Embeddings",
+            "description": "Build document Q&A systems using chunking, vector embeddings, retrieval, and LLM answer generation.",
+            "stage_type": "core",
+            "duration_label": "3 weeks",
+            "concepts": ["Embeddings", "Vector DB", "Chunking", "Retrieval"],
+            "skills": ["RAG", "Embeddings", "LangChain"],
+            "tools": ["LangChain", "Chroma", "FAISS"],
+            "projects": [{"title": "Smart study assistant with RAG"}],
+            "resources": [{"label": "CO8.3"}],
+            "display_order": 2
+          }
+        ]
+      },
+      {
+        "title": "Agents, MCP and AI-Augmented Development",
+        "slug": "agents-mcp-ai-development",
+        "description": "AI agents, LangGraph, CrewAI, OpenAI Assistants, MCP servers, Cursor, and Copilot workflows.",
+        "focus_area": "AI Agents",
+        "skills": ["AI Agents", "LangGraph", "CrewAI", "MCP", "Cursor"],
+        "tools": ["LangGraph", "CrewAI", "OpenAI Assistants", "Cursor", "GitHub Copilot"],
+        "display_order": 2,
+        "steps": [
+          {
+            "title": "AI Agents and Multi-Agent Workflows",
+            "description": "Build autonomous research or coding agents using LangChain agents, LangGraph state workflows, and CrewAI.",
+            "stage_type": "specialization",
+            "duration_label": "3 weeks",
+            "concepts": ["ReAct", "Tool calling", "State graphs", "Multi-agent orchestration"],
+            "skills": ["LangGraph", "CrewAI", "Agents"],
+            "tools": ["LangGraph", "CrewAI"],
+            "projects": [{"title": "Autonomous research agent"}],
+            "resources": [{"label": "CO3B.1 and CO3B.2"}],
+            "display_order": 1
+          },
+          {
+            "title": "MCP and AI Developer Workflow",
+            "description": "Understand MCP architecture, expose a custom MCP server tool, and use Cursor/Copilot for AI-assisted development.",
+            "stage_type": "advanced",
+            "duration_label": "3 weeks",
+            "concepts": ["MCP host", "MCP client", "MCP server", "AI coding workflows"],
+            "skills": ["MCP", "AI-Augmented Development"],
+            "tools": ["Cursor", "GitHub Copilot"],
+            "projects": [{"title": "Custom MCP server demo"}],
+            "resources": [{"label": "CO8.7 and CO3B.3"}],
+            "display_order": 2
+          }
+        ]
+      }
+    ]
+  }
+]
