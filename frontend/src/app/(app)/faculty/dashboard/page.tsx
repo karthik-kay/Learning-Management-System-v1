@@ -1,4 +1,3 @@
-"use client"
 
 import FacultyDashboardClient from "./FacultyDashboardClient";
 import { cookies } from "next/headers";
