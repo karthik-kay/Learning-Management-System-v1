@@ -1,3 +1,5 @@
+"use client"
+
 export default function FacultyProfile() {
   return (
     <div className="max-w-xl mx-auto mt-10 bg-white p-6 rounded-xl shadow">
